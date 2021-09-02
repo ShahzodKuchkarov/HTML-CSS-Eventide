@@ -1,0 +1,329 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Ubuntu';
+    font-size: 17px;
+    color: #828282;
+    min-width: 320px;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: #828689;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.link {
+    color: #2cc7c1;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.large {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.header {
+    height: 100vh;
+    background: url('../img/header_bg.jpg') center center;
+    background-size: cover;
+}
+
+.header .center {
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.header .row {
+    height: 100vh;
+}
+
+.header .center h1 {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.header .center p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.header .btn {
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    padding: 10px 25px;
+}
+
+.speakers {
+    padding-top: 110px;
+    padding-bottom: 115px;
+}
+
+.speakers .section-tab {
+    border: 3px solid #ececec;
+    border-radius: 2px;
+}
+
+.speakers .section-tab .nav-link {
+    text-transform: uppercase;
+    color: #abb1ba;
+    background: #ececec;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.speakers .section-tab .nav-link.active {
+    background: #fff;
+    color: #9097a1;
+}
+
+.speakers .section-tab .tab-pane {
+    padding: 30px 45px 40px 20px;
+}
+
+.speakers .section-tab .tab-pane .cloud {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.speakers .section-tab .tab-pane .cloud ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.speakers .section-tab .tab-pane .cloud ul .fa {
+    color: #2cc7c1;
+    margin-right: 10px;
+}
+
+.speakers .front {
+    border-radius: 50%;
+    position: absolute;
+}
+
+.speakers .back {
+    background: #6bd8d3;
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.speakers .back .fa {
+    font-size: 40px;
+    color: #fff;
+    line-height: 140px;
+}
+
+.speakers .item {
+    position: relative;
+}
+
+.speakers .front:hover {
+    opacity: .1;
+}
+
+.speakers .front:hover~h4 {
+    color: #2cc7c1;
+}
+
+.event {
+    border-top: 8px solid #f0f0f1;
+    padding-top: 120px;
+    padding-bottom: 115px;
+}
+
+.event .nov {
+    border: 3px solid #ececec;
+}
+
+.event .nov .nav-tabs {
+    background: #ececec;
+}
+
+.event .nov .nav-tabs .nav-link {
+    font-weight: 500;
+    font-size: 18px;
+    color: #abb1ba;
+}
+
+.event .nov .tab-pane {
+    padding: 25px;
+}
+
+.event .carousel-indicators li {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    border: 2px solid #65d2ce;
+    background: transparent;
+}
+
+.event .carousel-indicators li.active {
+    background: #65d2ce;
+}
+
+.event .carousel-indicators {
+    margin: 0;
+    justify-content: flex-start;
+    left: 10px;
+}
+
+.speakers .main-speakers {
+    margin-top: 122px;
+}
+
+.speakers .people {
+    margin-top: 65px;
+}
+
+.event .time {
+    margin-right: 25px;
+}
+
+.event .title a {
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-weight: 400;
+    color: #747a84;
+}
+
+.event .embed-responsive-item {
+    width: 570px;
+    height: 315px;
+}
+
+.event .youtube {
+    margin-top: 122px;
+}
+
+.form {
+    background: #f3f3f3;
+}
+
+.form-list {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 145px;
+}
+
+.form .form-margin {
+    margin-top: 150px;
+}
+
+.form form {
+    background: #fff;
+    margin-bottom: 155px;
+    padding: 45px 40px;
+}
+
+.form .btn-primary {
+    width: 155px;
+}
+
+.form .fa-chevron-circle-right {
+    margin-left: 5px;
+}
+
+.sponsors {
+    padding-top: 62px;
+    padding-bottom: 70px;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    padding-top: 90px;
+    padding-bottom: 80px;
+    background: #525b64;
+}
+
+.footer h3 {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 23px;
+}
+
+.footer .large {
+    font-family: 'Ubuntu';
+    font-size: 23px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 23px;
+}
+
+.footer p {
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 400;
+    color: #cdd0d2;
+}
+
+.footer span {
+    color: #2cc7c1;
+}
+
+.footer .btn-primary {
+    width: 44px;
+    background: #4d66a6;
+    border: 1px solid #3d528c;
+    font-family: 'Helvetica Neue';
+    font-size: 11px;
+    font-weight: 700;
+    padding-left: 3px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.footer .btn-secondary {
+    width: 117px;
+    /*  background: linear-gradient(top) #e1e1e1 #fcfcfc; */
+    background: #fcfcfc;
+    color: #000;
+    font-family: 'Helvetica Neue';
+    font-size: 12px;
+    padding-left: 5px;
+    font-weight: 500;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.copyright p {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    color: #cacaca;
+    padding-top: 13px;
+    padding-bottom: 11px;
+    align-self: center;
+}
+
+.copyright {
+    background: #3f464c;
+}
+.nov .title .fa {
+    color: #2cc7c1;
+}
+.nov .time {
+    background: #2cc7c1;
+    color: #fff;
+    border-radius: 5%;
+}
